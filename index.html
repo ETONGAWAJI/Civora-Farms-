@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Civora Farms — Cultivating Growth,One Field at a Time </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-left">
+      <!-- Logo -->
+      <div class="logo">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+          <path d="M16 4C16 4 8 8 8 18C8 18 12 14 16 14C20 14 24 18 24 18C24 8 16 4 16 4Z" fill="#2d6a4f" opacity="0.9"/>
+          <path d="M16 14C16 14 10 16 10 24C10 24 13 20 16 20C19 20 22 24 22 24C22 16 16 14 16 14Z" fill="#52b788"/>
+          <line x1="16" y1="14" x2="16" y2="28" stroke="#1b4332" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="nav-divider"></div>
+      <div class="nav-links">
+        <a href="#top" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <!-- <a href="#" class="nav-link">Blog</a> -->
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <!-- <button class="icon-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>Login</span>
+      </button> -->
+      <!-- <button class="icon-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <span>Search</span>
+      </button>
+      <button class="icon-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span>Basket</span>
+      </button> -->
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       HERO SECTION
+  ══════════════════════════════════════════ -->
+  <main id="home top">
+    <div class="hero-grid" id="hero-grid">
+
+      <!-- LEFT: Content Column -->
+      <div class="hero-content-col">
+        <p class="eyebrow fadeInUp">Civora Farms</p>
+
+        <h1 class="hero-title fadeInUp" style="transition-delay: 0.1s;">
+          Cultivating Growth<br />
+          
+          <span class="title-highlight">One Field</span>
+          <strong>At a Time <br /></strong>
+          <!-- <span class="title-light"> Are</span> -->
+        </h1>
+
+        <p class="hero-desc fadeInUp" style="transition-delay: 0.2s;">
+          Bring productivity and prosperity to your farm with our expert agricultural guidance and tailored solutions.
+
+        <div class="cta-group fadeInUp" style="transition-delay: 0.3s;">
+          <button class="btn-primary">Consult with Us</button>
+          <button class="btn-video">
+            <div class="play-btn">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="white">
+                <path d="M2 1.5L10 6L2 10.5V1.5Z"/>
+              </svg>
+            </div>
+            Watch Our Video
+          </button>
+        </div>
+
+        <div class="scroll-indicator fadeInUp" style="transition-delay: 0.5s;">
+          <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+          </div>
+          <span>Scroll Down</span>
+        </div>
+      </div>
+
+      <!-- CENTER: Hero Image Column -->
+      <div class="hero-img-col">
+        <!-- Decorative SVG flourish -->
+        <div class="deco-flourish fadeInUp" style="transition-delay: 0.4s;">
+          <svg width="70" height="70" viewBox="0 0 70 70" fill="none">
+            <path d="M35 10 C45 10, 60 25, 55 45 C50 60, 30 65, 20 55 C10 45, 15 25, 35 10Z" stroke="#1b3a2a" stroke-width="1.5" fill="none"/>
+            <path d="M35 10 Q35 40 28 62" stroke="#1b3a2a" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+          </svg>
+        </div>
+
+        <!-- Dynamic bg -->
+        <div class="hero-bg" id="heroBg">
+          <!-- Decorative circles -->
+          <div class="deco-circle deco-circle-1"></div>
+          <div class="deco-circle deco-circle-2"></div>
+
+          <!-- SVG Leaf Illustration -->
+          <svg id="leafSvg" viewBox="0 0 300 400" class="leaf-svg">
+            <path d="M150 20 C200 20, 280 80, 270 180 C260 270, 190 350, 130 360 C70 370, 20 300, 30 200 C40 100, 100 20, 150 20Z" fill="url(#leafGrad1)" opacity="0.95"/>
+            <path d="M150 20 Q140 190, 130 360" stroke="rgba(0,60,20,0.5)" stroke-width="2.5" fill="none"/>
+
+            <!-- Left veins -->
+            <path d="M138 60 Q108 80, 58 90" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M139 100 Q117 120, 70 130" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M140 140 Q126 160, 82 170" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M141 180 Q135 200, 95 210" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M142 220 Q144 240, 107 250" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M143 260 Q153 280, 120 290" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M144 300 Q162 320, 132 330" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+
+            <!-- Right veins -->
+            <path d="M152 60 Q190 80, 240 85" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M153 100 Q198 120, 244 125" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M154 140 Q206 160, 248 165" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M155 180 Q214 200, 250 205" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M156 220 Q222 240, 252 245" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M157 260 Q230 280, 254 285" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+            <path d="M158 300 Q238 320, 256 325" stroke="rgba(0,60,20,0.3)" stroke-width="1" fill="none"/>
+
+            <!-- Second leaf -->
+            <path d="M90 80 C120 60, 170 70, 165 140 C160 200, 110 230, 75 220 C40 210, 30 160, 50 120 C60 100, 90 80, 90 80Z" fill="url(#leafGrad2)" opacity="0.8"/>
+            <!-- Third leaf -->
+            <path d="M180 250 C210 230, 260 245, 255 300 C250 345, 210 370, 185 360 C155 350, 150 310, 165 280 C172 265, 180 250, 180 250Z" fill="url(#leafGrad3)" opacity="0.75"/>
+
+            <defs>
+              <linearGradient id="leafGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#3a7d44"/>
+                <stop offset="50%" stop-color="#2d6a4f"/>
+                <stop offset="100%" stop-color="#1b4332"/>
+              </linearGradient>
+              <linearGradient id="leafGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#52b788"/>
+                <stop offset="100%" stop-color="#2d6a4f"/>
+              </linearGradient>
+              <linearGradient id="leafGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#74c69d"/>
+                <stop offset="100%" stop-color="#40916c"/>
+              </linearGradient>
+            </defs>
+          </svg>
+
+          <!-- Carousel dots -->
+          <div class="slide-dots" id="slideDots">
+            <div class="slide-dot active" data-index="0"></div>
+            <div class="slide-dot" data-index="1"></div>
+            <div class="slide-dot" data-index="2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Product Info Column -->
+      <div class="product-info-col">
+
+        <!-- Decorative script SVG -->
+        <div class="deco-script fadeInRight" style="transition-delay: 0.3s;">
+          <svg width="80" height="60" viewBox="0 0 80 60" fill="none">
+            <path d="M10 45 C20 20, 40 10, 50 25 C60 40, 45 55, 60 50 C70 47, 75 35, 70 20" stroke="#2d6a4f" stroke-width="2" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Product card -->
+        <div class="product-card fadeInRight" style="transition-delay: 0.4s;">
+          <div class="card-accent-bar"></div>
+          <div class="card-body">
+            <p class="card-label">Featured Service</p>
+            <h3 class="card-title" id="plantName">Crop Yield Optimization</h3>
+            <p class="card-colors" id="plantColors">5 Approaches available</p>
+            <p class="card-desc" id="plantDesc">
+              Boost your farm's productivity with our expert guidance. Tailored strategies for maize, soybeans, and more. Get Started
+            </p>
+          </div>
+          <a href="#" class="shop-now-link">
+            Explore Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <!-- Progress bars -->
+          <div class="card-progress" id="progressBars">
+            <div class="progress-bar active" data-index="0"></div>
+            <div class="progress-bar" data-index="1"></div>
+            <div class="progress-bar" data-index="2"></div>
+          </div>
+        </div>
+
+        <!-- Stats row -->
+        <div class="stats-row fadeInRight" style="transition-delay: 0.5s;">
+          <div class="stat-chip">
+            <span class="stat-num">200+</span>
+            <span class="stat-label">Tailored Solutions for Diverse Agricultural Needs</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-num">4.9★</span>
+            <span class="stat-label">Customer rating, Client Success Stories and Testimonials</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-num">Book</span>
+            <span class="stat-label"> a Consultation and Get Expert Advice Now</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+   <!-- ══════════════════════════════════════════
+       ABOUT SECTION
+  ══════════════════════════════════════════ -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      
+      <!-- Left: Image gallery -->
+      <div class="about-gallery">
+        <div class="gallery-grid">
+          <!-- Main large image -->
+          <div class="gallery-main">
+            <div class="img-frame">
+              <svg viewBox="0 0 400 500" class="plant-illustration">
+                <!-- Potted plant illustration -->
+                <rect x="150" y="380" width="100" height="120" rx="8" fill="#8b5a3c" opacity="0.8"/>
+                <rect x="140" y="370" width="120" height="20" rx="10" fill="#6b4423"/>
+                
+                <!-- Leaves -->
+                <ellipse cx="200" cy="280" rx="80" ry="120" fill="url(#aboutLeaf1)" opacity="0.9"/>
+                <ellipse cx="160" cy="240" rx="60" ry="90" fill="url(#aboutLeaf2)" opacity="0.85"/>
+                <ellipse cx="240" cy="260" rx="70" ry="100" fill="url(#aboutLeaf3)" opacity="0.88"/>
+                <ellipse cx="180" cy="200" rx="50" ry="75" fill="url(#aboutLeaf4)" opacity="0.82"/>
+                <ellipse cx="220" cy="220" rx="55" ry="80" fill="url(#aboutLeaf1)" opacity="0.87"/>
+                
+                <!-- Stems -->
+                <path d="M200 380 Q195 320 180 200" stroke="#2d6a4f" stroke-width="3" fill="none" opacity="0.6"/>
+                <path d="M200 380 Q205 300 220 220" stroke="#2d6a4f" stroke-width="3" fill="none" opacity="0.6"/>
+                
+                <defs>
+                  <linearGradient id="aboutLeaf1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#52b788"/>
+                    <stop offset="100%" stop-color="#2d6a4f"/>
+                  </linearGradient>
+                  <linearGradient id="aboutLeaf2" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#74c69d"/>
+                    <stop offset="100%" stop-color="#40916c"/>
+                  </linearGradient>
+                  <linearGradient id="aboutLeaf3" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#52b788"/>
+                    <stop offset="100%" stop-color="#1b4332"/>
+                  </linearGradient>
+                  <linearGradient id="aboutLeaf4" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#95d5b2"/>
+                    <stop offset="100%" stop-color="#52b788"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Small decorative cards -->
+          <div class="gallery-badge badge-1">
+            <span class="badge-num">5+</span>
+            <span class="badge-text">Years Experience</span>
+          </div>
+          
+          <div class="gallery-badge badge-2">
+            <span class="badge-num">5K+</span>
+            <span class="badge-text">Happy Customers</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="about-content">
+        <p class="about-eyebrow">About Us</p>
+        <h2 class="about-title">
+          We Believe Everyone <br/>
+          <span class="title-emphasis">Deserves a Share </span><br/>
+         in a Flourishing Farm
+        </h2>
+        
+        <p class="about-text">
+         Born in 2015, our love for fertile lands has blossomed into a vibrant community of farm investors. We partner with sustainable farms and agricultural projects, offering you opportunities to grow your wealth while nurturing the earth.
+        </p>
+        
+        <p class="about-text">
+          Our expert team provides tailored investment guidance, helping you pick the right farm projects that fit your financial goals and values. Whether you're a seasoned investor or just starting, we're with you every harvest.
+        </p>
+
+        <!-- Features grid -->
+        <div class="about-features">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                <path d="M2 12h20"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>Global Opportunities</h4>
+              <p>Invest in top farms and agricultural projects worldwide</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>Performance Guarantee</h4>
+              <p>Every investment backed by robust farm management</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>Expert Advisory</h4>
+              <p>Dedicated support from our farm investment experts</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="about-cta">
+          Explore your farm investment journey
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       CONTACT SECTION
+  ══════════════════════════════════════════ -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      
+      <!-- Section header -->
+      <div class="contact-header">
+        <p class="contact-eyebrow">Get In Touch</p>
+        <h2 class="contact-title">
+          Let's Cultivate <br/>
+          <span class="title-emphasis">Prosperity</span><br/>
+          Together
+        </h2>
+        <p class="contact-subtitle">
+          Have questions about farm investments? Looking for the right agricultural opportunity? Our team of experts is here to guide you towards fruitful investments.
+        </p>
+      </div>
+
+      <div class="contact-content">
+        
+        <!-- Left: Contact form -->
+        <div class="contact-form-wrapper">
+          <form id="contactForm" class="contact-form">
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input 
+                  type="text" 
+                  id="firstName" 
+                  name="firstName" 
+                  placeholder="John"
+                  required
+                />
+              </div>
+              
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input 
+                  type="text" 
+                  id="lastName" 
+                  name="lastName" 
+                  placeholder="Diggle"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="john.diggle@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number (Optional)</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                placeholder="+234 (555) 000-0000"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a topic...</option>
+                <option value="general">General Inquiry</option>
+                <option value="care">Plant Care Advice</option>
+                <option value="order">Order Support</option>
+                <option value="custom">Custom Request</option>
+                <option value="partnership">Partnership Opportunity</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="5" 
+                placeholder="Tell us about your plant needs..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="22" y1="2" x2="11" y2="13"/>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+            </button>
+
+          </form>
+        </div>
+
+        <!-- Right: Contact info cards -->
+        <div class="contact-info">
+          
+          <!-- Visit us card
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Visit Our Store</h4>
+              <p>123 Garden Lane<br/>Green Valley, CA 90210</p>
+              <a href="#" class="info-link">Get Directions →</a>
+            </div>
+          </div> -->
+
+          <!-- Contact card -->
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Call Us</h4>
+              <p>Mon-Fri: 9AM - 6PM GMT +1<br/>Sat-Sun: 10AM - 4PM GMT +1</p>
+              <a href="tel:+2349030117888" class="info-link">+2349030117888</a>
+            </div>
+          </div>
+
+          <!-- Email card -->
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Email Us</h4>
+              <p>For inquiries and support</p>
+              <a href="mailto:hello@civorafarms.com" class="info-link">hello@civorafarms.com</a>
+            </div>
+          </div>
+
+          <!-- Social links -->
+          <div class="info-card social-card">
+            <h4>Follow Our Journey</h4>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Pinterest">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M8 12c0-2.5 2-4.5 4.5-4.5S17 9.5 17 12c0 1.5-.5 2.5-1.5 3.5S13 17 12 17c-.5 0-1-.2-1.5-.5"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </a>
+             <a href="#" class="social-link" aria-label="X (formerly Twitter)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path d="M16 4C16 4 8 8 8 18C8 18 12 14 16 14C20 14 24 18 24 18C24 8 16 4 16 4Z" fill="#2d6a4f" opacity="0.9"/>
+          <path d="M16 14C16 14 10 16 10 24C10 24 13 20 16 20C19 20 22 24 22 24C22 16 16 14 16 14Z" fill="#52b788"/>
+          <line x1="16" y1="14" x2="16" y2="28" stroke="#1b4332" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span>Civora Farms</span>
+      </div>
+      <p class="footer-text">
+        Cultivating growth, one field at a time.
+      </p>
+      <p class="footer-copy">
+        © 2026 Civora Farms. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
